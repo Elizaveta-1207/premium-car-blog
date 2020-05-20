@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.page {
+  font-family: PT Sans;
+}
+
+.header {
+  height: 90px;
+  background-color: #000;
+  color: #fff;
+  padding-top: 0.5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__logo {
+  /*border: 1px solid red;*/
+  display: flex;
+  align-items: center;
+}
+
+.header__logo-premium {
+  margin-right: 6px;
+  /*border: 1px solid red;*/
+}
+
+.header__logo-car {
+  width: 39px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3px 0;
+  background: #4a90e2;
+  border-radius: 3px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+
+  /* border: 1px solid red;*/
+}
+
+/*.header__nav {
+  list-style: none;
+  display: flex;
+  /*flex-direction: row;*
+  width: 368px;
+  /*justify-content: space-between;*
+  border: 1px solid red;
+}*/
+
+.header__links {
+  list-style: none;
+  display: flex;
+  /*flex-direction: row;*/
+  width: 368px;
+  justify-content: space-between;
+  /* border: 1px solid red;*/
+  padding: 0;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.header__link:hover {
+  /*прозрачность*/
+  opacity: 0.4;
+  /*прозрачность можно ещё сделать через rgba,
+  но есть ли в этом смысл?
+  да и rgba значений цвета #2f80ed у меня нет :)*/
+  /*color: #fff;*/
+
+  /*для плавного изменения при наведении мышки на ссылку*/
+  transition: 0.5s;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  /*border: 1px solid red;*/
+  /*border: none;*/
+}
+
+.header__search input {
+  border: 2px solid transparent;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.header__search input:focus {
+  border: 2px solid rgb(255, 255, 255, 0.3);
+  background-color: rgb(255, 255, 255, 0.3);
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.header__search button {
+  background-image: url("../images/Shape.png");
+  /*background: transparent;*/
+  background-color: transparent;
+  width: 16px;
+  height: 17px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/*.header__search-icon {
+  /*border: 1px solid red;*
+}*/
