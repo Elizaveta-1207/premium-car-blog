@@ -3,21 +3,27 @@
 
 .page {
   font-family: PT Sans;
+  margin: 0 auto;
 }
 
 .header {
   height: 90px;
   background-color: #000;
-  color: #fff;
   padding-top: 0.5px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  color: #fff;
 }
 
 .header__logo {
   /*border: 1px solid red;*/
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -28,9 +34,12 @@
 
 .header__logo-car {
   width: 39px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-transform: uppercase;
-  text-align: center;
-  padding: 3px 0;
+  /*padding: 3px 0;*/
   background: #4a90e2;
   border-radius: 3px;
   font-family: Lato;
@@ -38,7 +47,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  margin: 0;
+  /*margin: 0;*/
 
   /* border: 1px solid red;*/
 }
@@ -117,3 +126,93 @@
 /*.header__search-icon {
   /*border: 1px solid red;*
 }*/
+
+/*возможно весь кусок content не нужен*/
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid red;*/
+}
+.category {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 76px;
+  padding: 0;
+  /*border: 1px solid red;*/
+}
+.category__table {
+  display: flex;
+  align-items: center;
+  /*border: 1px solid red;*/
+  padding: 0;
+  margin: 0;
+  height: 560px;
+}
+.category__table-big {
+  position: relative;
+  /*border: 1px solid red;*/
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  /*height: 560px;*/
+}
+.category__table-small-1 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*border: 1px solid red;*/
+  padding: 0 30px;
+  height: 560px;
+}
+.category__table-small-2 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  height: 560px;
+  /*border: 1px solid red;*/
+}
+.category__car {
+  display: block;
+  height: 265px;
+  width: 370px;
+  border-radius: 3px;
+}
+
+.category__car-big {
+  width: 374px;
+  height: 560px;
+  /*border: 1px solid red;*/
+  margin: 0;
+  padding: 0;
+}
+
+.category__list {
+  position: relative;
+}
+
+.categ-title {
+  position: absolute;
+  top: 30px;
+  left: 22px;
+  width: 62px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*padding: 3px 0;*/
+  background: #4a90e2;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+  margin: 0;
+
+  /* border: 1px solid red;*/
+}
