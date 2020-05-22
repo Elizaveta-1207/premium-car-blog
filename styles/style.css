@@ -191,7 +191,6 @@
   /*border: 1px solid red;*/
   padding: 0 30px;
   height: 560px;
-
 }
 
 .category__table-small-2 {
@@ -229,7 +228,6 @@
   opacity: 1;
 }
 
-
 /*при наведении на картинку изменяем фон*/
 .category__list:hover .category__car {
   opacity: 0.3;
@@ -247,7 +245,7 @@
   /*width: 62px;
   height: 22px;*/
   padding: 4px 12px 2px;
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
   /*padding: 3px 0;*/
@@ -258,7 +256,7 @@
   color: #fff;
   margin: 0;
 
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .category__author {
@@ -340,7 +338,7 @@
   /*border: 1px solid red;*/
   padding: 0;
   margin: 0;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .article__block:hover {
@@ -413,19 +411,20 @@
   margin-top: 0;
   margin-left: 130px;
   padding: 0;
+  width: 270px;
   /*padding-left: 130px;*/
   /*border: 1px solid red;*/
 }
 
-.about-us {
-  width: 270px;
-  /*border: 1px solid red;*/
-}
+/*.about-us {
+  /*width: 270px;*
+  /*border: 1px solid red;*
+}*/
 
 .about-us__photo {
   display: block;
   border-radius: 3px;
-  width: 270px;
+  /*width: 270px;*/
   height: 200px;
   margin: 0;
   padding: 0;
@@ -456,7 +455,7 @@
 }
 
 .about-us__text {
-  width: 270px;
+  /*width: 270px;*/
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -468,10 +467,11 @@
   /*border: 1px solid red;*/
 }
 
-.about-us__continue {
+.side-bar__button {
   text-decoration: none;
   outline: none;
   border: none;
+  /*font-family: PT Sans;*/
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -479,7 +479,8 @@
   margin: 0;
   padding: 0;
 
-  width: 270px;
+  /*width: 270px;*/
+  width: 100%;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -492,23 +493,23 @@
   /*border: 1px solid red;*/
 }
 
-.about-us__continue:hover {
+.side-bar__button:hover {
   opacity: 0.8;
   transition: 0.2s;
 }
 
-.about-us__continue:active {
+.side-bar__button:active {
   background-color: #000;
 }
 
 .popular-posts {
   padding: 0;
   margin: 0;
-  width: 270px;
+  /*width: 270px;*/
   /*border: 1px solid red;*/
 }
 
-.popular-posts__title {
+.side-bar__title {
   /*padding: 0;*/
   margin: 60px 0 23px;
   font-style: normal;
@@ -574,4 +575,139 @@
   line-height: 18px;
 
   color: #666666;
+}
+
+.instagram {
+  margin: 0;
+  padding: 0;
+  /*width: 270px;*/
+  /*border: 1px solid red;*/
+}
+
+.instagram__posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid red;*/
+}
+
+.instagram__img {
+  margin-bottom: 10px;
+  display: block;
+  width: 130px;
+  height: 130px;
+  border-radius: 3px;
+  /*border: 1px solid red;*/
+}
+
+.instagram__logo {
+  margin-right: 10px;
+}
+
+/*.tags {
+  /*border: 1px solid red;*
+}*/
+
+.tags_list {
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content: space-between;*/
+  justify-content: flex-start;
+  /*margin: 0;
+  padding: 0;*/
+  /*добавила к общей ширине side-bar 270px ещё 10px,
+  чтобы скомпенсировать margin вправо*/
+  width: 280px;
+  align-items: flex-start;
+  /*border: 1px solid red;*/
+}
+
+.span-title_tag {
+  position: static;
+  text-decoration: none;
+  padding: 5px 16px 7px;
+  background: #ebebeb;
+  color: #171717;
+  font-size: 14px;
+  line-height: 18px;
+  /*margin-bottom: 10px;*/
+  margin: 0 10px 10px 0;
+
+  /*border: 1px solid red;*/
+  /*padding: 4px 12px 2px;
+  text-align: center;
+
+  /*display: flex;*
+  justify-content: center;
+  align-items: center;
+  /*padding: 3px 0;*
+  background: #4a90e2;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+  margin: 0;*/
+}
+
+/* .newsletter {
+  width: 270px;
+  border: 1px solid red;
+} */
+
+/*скомпенсировала margin 10px, который появляется при отступах у тегов
+у обычного side-bar__title верхний отступ 60px */
+.side-bar__title_newsletter {
+  margin-top: 50px;
+  margin-bottom: 11px;
+}
+
+.newsletter__subtitle {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.data__input {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  /*font-family: PT Sans;*/
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-left: 15px;
+
+  /*width: 270px;*/
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: #232323;
+
+  border: 1px solid #e5e5e5;
+  /*добавила нижнюю строку, чтобы элемент был в рамках границе,
+  т.е. чтобы граница не отрисовывалас вне элемента*/
+  box-sizing: border-box;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.data__input::placeholder {
+  color: #AEB3BB;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0;
+  margin: 0;
+  /* padding-left: 15px; */
 }

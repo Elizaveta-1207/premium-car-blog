@@ -1,185 +1,378 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Car Blog</title>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Premium Car Blog</title>
-  <link rel="stylesheet" href="./styles/normalize.css" />
-  <link rel="stylesheet" href="./styles/style.css" />
-</head>
-
-<body>
-  <div class="page">
-    <header class="header">
-      <div class="header__logo">
-        <p class="header__logo-premium">Premium</p>
-        <p class="header__logo-car">Car</p>
-      </div>
-      <nav class="header__nav">
-        <ul class="header__links">
-          <li><a href="#" class="header__link">Home</a></li>
-          <li><a href="#" class="header__link">Recepes</a></li>
-          <li><a href="#" class="header__link">Article</a></li>
-          <li><a href="#" class="header__link">Contact</a></li>
-          <li><a href="#" class="header__link">Purchase</a></li>
-        </ul>
-      </nav>
-      <div class="header__search">
-        <form>
-          <input type="text" placeholder="Search..." />
-          <button type="submit"></button>
-        </form>
-        <!--<img
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__logo">
+          <p class="header__logo-premium">Premium</p>
+          <p class="header__logo-car">Car</p>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__links">
+            <li><a href="#" class="header__link">Home</a></li>
+            <li><a href="#" class="header__link">Recepes</a></li>
+            <li><a href="#" class="header__link">Article</a></li>
+            <li><a href="#" class="header__link">Contact</a></li>
+            <li><a href="#" class="header__link">Purchase</a></li>
+          </ul>
+        </nav>
+        <div class="header__search">
+          <form>
+            <input type="text" placeholder="Search..." />
+            <button type="submit"></button>
+          </form>
+          <!--<img
             src="./images/Shape.png"
             alt="Поиск"
             class="header__search-icon"
           />-->
-      </div>
-    </header>
-
-    <main class="content">
-      <section class="category">
-        <div class="category__table">
-          <div class="category__table-big">
-            <img src="./images/Bitmap.png" alt="car1" class="category__car category__car-big">
-            <p class="span-title">Vehicle</p>
-            <p class="category__author category__author_big">Rickie Baroch - June 6, 2019</p>
-            <h2 class="category__title category__title_big">One of Saturn's largest rings may be newer than anyone</h2>
-          </div>
-          <ul class="category__table-small-1">
-            <li class="category__list">
-              <img src="./images/Bitmap (1).png" alt="car2" class="category__car">
-              <p class="span-title">Vehicle</p>
-              <p class="category__author">Rickie Baroch - June 6, 2019</p>
-              <h2 class="category__title">One of Saturn's largest rings may be newer than anyone</h2>
-            </li>
-            <li class="category__list">
-              <img src="./images/Bitmap (3).png" alt="car4" class="category__car">
-              <p class="span-title">Vehicle</p>
-              <p class="category__author">Rickie Baroch - June 6, 2019</p>
-              <h2 class="category__title">One of Saturn's largest rings may be newer than anyone</h2>
-            </li>
-          </ul>
-          <ul class="category__table-small-2">
-            <li class="category__list">
-              <img src="./images/Bitmap (2).png" alt="car3" class="category__car">
-              <p class="span-title">Vehicle</p>
-              <p class="category__author">Rickie Baroch - June 6, 2019</p>
-              <h2 class="category__title">One of Saturn's largest rings may be newer than anyone</h2>
-            </li>
-            <li class="category__list">
-              <img src="./images/Bitmap (4).png" alt="car5" class="category__car">
-              <p class="span-title">Vehicle</p>
-              <p class="category__author">Rickie Baroch - June 6, 2019</p>
-              <h2 class="category__title">One of Saturn's largest rings may be newer than anyone</h2>
-            </li>
-          </ul>
         </div>
-      </section>
-      <section>
-        <section class="articles">
-          <ul class="articles__table">
-            <li class="article">
-              <img src="./images/Bitmap artic1.png" alt="car" class="article__car">
-              <div class="article__block">
-                <p class="span-title span-title_article">Vehicle</p>
-                <h2 class="article_title">One of Saturn’s largest rings may be newer than anyone</h2>
-                <p class="article__author">Rickie Baroch - June 6, 2019</p>
-                <p class="article_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                  doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem</p>
-              </div>
-            </li>
-            <li class="article">
-              <img src="./images/Bitmap artic2.png" alt="car" class="article__car">
-              <div class="article__block">
-                <p class="span-title span-title_article">Vehicle</p>
-                <h2 class="article_title">One of Saturn’s largest rings may be newer than anyone</h2>
-                <p class="article__author">Rickie Baroch - June 6, 2019</p>
-                <p class="article_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                  doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem</p>
-              </div>
-            </li>
-            <li class="article">
-              <img src="./images/Bitmap artic3.png" alt="car" class="article__car">
-              <div class="article__block">
-                <p class="span-title span-title_article">Vehicle</p>
-                <h2 class="article_title">One of Saturn’s largest rings may be newer than anyone</h2>
-                <p class="article__author">Rickie Baroch - June 6, 2019</p>
-                <p class="article_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                  doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem</p>
-              </div>
-            </li>
-            <li class="article">
-              <img src="./images/Bitmap artic4.png" alt="car" class="article__car">
-              <div class="article__block">
-                <p class="span-title span-title_article">Vehicle</p>
-                <h2 class="article_title">One of Saturn’s largest rings may be newer than anyone</h2>
-                <p class="article__author">Rickie Baroch - June 6, 2019</p>
-                <p class="article_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                  doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem</p>
-              </div>
-            </li>
-            <li class="article">
-              <img src="./images/Bitmap artic5.png" alt="car" class="article__car">
-              <div class="article__block">
-                <p class="span-title span-title_article">Vehicle</p>
-                <h2 class="article_title">One of Saturn’s largest rings may be newer than anyone</h2>
-                <p class="article__author">Rickie Baroch - June 6, 2019</p>
-                <p class="article_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                  doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem</p>
-              </div>
-            </li>
-          </ul>
+      </header>
 
-          <ul class="side-bar">
-            <li class="about-us">
-              <img src="./images/moto.png" alt="moto" class="about-us__photo">
-              <h2 class="about-us__author">Leon Hunt</h2>
-              <p class="about-us__profession">Food & cooking bloger</p>
-              <p class="about-us__text">Hi, I'm Leon. Cooking is the way I express my creative side to the
-                world. Welcome to my Kitchen Corner on…</p>
-              <button class="about-us__continue" type="button">Continue Reading</button>
-            </li>
-
-            <li class="popular-posts">
-              <h2 class="popular-posts__title">Popular posts</h2>
-              <ul class="posts">
-                <li class="pop-post">
-                  <p class="span-title pop-post__span-title">Vehicle</p>
-                  <img src="./images/wheel1.png" alt="car" class="pop-post__img">
-                  <h2 class="pop-post__title">One of Saturn’s largest rings may be newer than anyone</h2>
-                  <p class="pop-post__author">Rickie Baroch - June 6, 2019</p>
-                </li>
-                <li class="pop-post">
-                  <p class="span-title pop-post__span-title">Vehicle</p>
-                  <img src="./images/wheel2.png" alt="car" class="pop-post__img">
-                  <h2 class="pop-post__title">One of Saturn’s largest rings may be newer than anyone</h2>
-                  <p class="pop-post__author">Rickie Baroch - June 6, 2019</p>
-                </li>
-                <li class="pop-post">
-                  <p class="span-title pop-post__span-title">Vehicle</p>
-                  <img src="./images/wheel3.png" alt="car" class="pop-post__img">
-                  <h2 class="pop-post__title">One of Saturn’s largest rings may be newer than anyone</h2>
-                  <p class="pop-post__author">Rickie Baroch - June 6, 2019</p>
-                </li>
-              </ul>
-            </li>
-
-          </ul>
+      <main class="content">
+        <section class="category">
+          <div class="category__table">
+            <div class="category__table-big">
+              <img
+                src="./images/Bitmap.png"
+                alt="car1"
+                class="category__car category__car-big"
+              />
+              <p class="span-title">Vehicle</p>
+              <p class="category__author category__author_big">
+                Rickie Baroch - June 6, 2019
+              </p>
+              <h2 class="category__title category__title_big">
+                One of Saturn's largest rings may be newer than anyone
+              </h2>
+            </div>
+            <ul class="category__table-small-1">
+              <li class="category__list">
+                <img
+                  src="./images/Bitmap (1).png"
+                  alt="car2"
+                  class="category__car"
+                />
+                <p class="span-title">Vehicle</p>
+                <p class="category__author">Rickie Baroch - June 6, 2019</p>
+                <h2 class="category__title">
+                  One of Saturn's largest rings may be newer than anyone
+                </h2>
+              </li>
+              <li class="category__list">
+                <img
+                  src="./images/Bitmap (3).png"
+                  alt="car4"
+                  class="category__car"
+                />
+                <p class="span-title">Vehicle</p>
+                <p class="category__author">Rickie Baroch - June 6, 2019</p>
+                <h2 class="category__title">
+                  One of Saturn's largest rings may be newer than anyone
+                </h2>
+              </li>
+            </ul>
+            <ul class="category__table-small-2">
+              <li class="category__list">
+                <img
+                  src="./images/Bitmap (2).png"
+                  alt="car3"
+                  class="category__car"
+                />
+                <p class="span-title">Vehicle</p>
+                <p class="category__author">Rickie Baroch - June 6, 2019</p>
+                <h2 class="category__title">
+                  One of Saturn's largest rings may be newer than anyone
+                </h2>
+              </li>
+              <li class="category__list">
+                <img
+                  src="./images/Bitmap (4).png"
+                  alt="car5"
+                  class="category__car"
+                />
+                <p class="span-title">Vehicle</p>
+                <p class="category__author">Rickie Baroch - June 6, 2019</p>
+                <h2 class="category__title">
+                  One of Saturn's largest rings may be newer than anyone
+                </h2>
+              </li>
+            </ul>
+          </div>
         </section>
         <section>
+          <section class="articles">
+            <ul class="articles__table">
+              <li class="article">
+                <img
+                  src="./images/Bitmap artic1.png"
+                  alt="car"
+                  class="article__car"
+                />
+                <div class="article__block">
+                  <p class="span-title span-title_article">Vehicle</p>
+                  <h2 class="article_title">
+                    One of Saturn’s largest rings may be newer than anyone
+                  </h2>
+                  <p class="article__author">Rickie Baroch - June 6, 2019</p>
+                  <p class="article_text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem sed
+                    ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem
+                  </p>
+                </div>
+              </li>
+              <li class="article">
+                <img
+                  src="./images/Bitmap artic2.png"
+                  alt="car"
+                  class="article__car"
+                />
+                <div class="article__block">
+                  <p class="span-title span-title_article">Vehicle</p>
+                  <h2 class="article_title">
+                    One of Saturn’s largest rings may be newer than anyone
+                  </h2>
+                  <p class="article__author">Rickie Baroch - June 6, 2019</p>
+                  <p class="article_text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem sed
+                    ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem
+                  </p>
+                </div>
+              </li>
+              <li class="article">
+                <img
+                  src="./images/Bitmap artic3.png"
+                  alt="car"
+                  class="article__car"
+                />
+                <div class="article__block">
+                  <p class="span-title span-title_article">Vehicle</p>
+                  <h2 class="article_title">
+                    One of Saturn’s largest rings may be newer than anyone
+                  </h2>
+                  <p class="article__author">Rickie Baroch - June 6, 2019</p>
+                  <p class="article_text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem sed
+                    ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem
+                  </p>
+                </div>
+              </li>
+              <li class="article">
+                <img
+                  src="./images/Bitmap artic4.png"
+                  alt="car"
+                  class="article__car"
+                />
+                <div class="article__block">
+                  <p class="span-title span-title_article">Vehicle</p>
+                  <h2 class="article_title">
+                    One of Saturn’s largest rings may be newer than anyone
+                  </h2>
+                  <p class="article__author">Rickie Baroch - June 6, 2019</p>
+                  <p class="article_text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem sed
+                    ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem
+                  </p>
+                </div>
+              </li>
+              <li class="article">
+                <img
+                  src="./images/Bitmap artic5.png"
+                  alt="car"
+                  class="article__car"
+                />
+                <div class="article__block">
+                  <p class="span-title span-title_article">Vehicle</p>
+                  <h2 class="article_title">
+                    One of Saturn’s largest rings may be newer than anyone
+                  </h2>
+                  <p class="article__author">Rickie Baroch - June 6, 2019</p>
+                  <p class="article_text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem sed
+                    ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem
+                  </p>
+                </div>
+              </li>
+            </ul>
 
+            <ul class="side-bar">
+              <li class="about-us">
+                <img
+                  src="./images/moto.png"
+                  alt="moto"
+                  class="about-us__photo"
+                />
+                <h2 class="about-us__author">Leon Hunt</h2>
+                <p class="about-us__profession">Food & cooking bloger</p>
+                <p class="about-us__text">
+                  Hi, I'm Leon. Cooking is the way I express my creative side to
+                  the world. Welcome to my Kitchen Corner on…
+                </p>
+                <button
+                  class="side-bar__button about-us__continue"
+                  type="button"
+                >
+                  Continue Reading
+                </button>
+              </li>
+
+              <li class="popular-posts">
+                <h2 class="side-bar__title">Popular posts</h2>
+                <ul class="posts">
+                  <li class="pop-post">
+                    <p class="span-title pop-post__span-title">Vehicle</p>
+                    <img
+                      src="./images/wheel1.png"
+                      alt="car"
+                      class="pop-post__img"
+                    />
+                    <h2 class="pop-post__title">
+                      One of Saturn’s largest rings may be newer than anyone
+                    </h2>
+                    <p class="pop-post__author">Rickie Baroch - June 6, 2019</p>
+                  </li>
+                  <li class="pop-post">
+                    <p class="span-title pop-post__span-title">Vehicle</p>
+                    <img
+                      src="./images/wheel2.png"
+                      alt="car"
+                      class="pop-post__img"
+                    />
+                    <h2 class="pop-post__title">
+                      One of Saturn’s largest rings may be newer than anyone
+                    </h2>
+                    <p class="pop-post__author">Rickie Baroch - June 6, 2019</p>
+                  </li>
+                  <li class="pop-post">
+                    <p class="span-title pop-post__span-title">Vehicle</p>
+                    <img
+                      src="./images/wheel3.png"
+                      alt="car"
+                      class="pop-post__img"
+                    />
+                    <h2 class="pop-post__title">
+                      One of Saturn’s largest rings may be newer than anyone
+                    </h2>
+                    <p class="pop-post__author">Rickie Baroch - June 6, 2019</p>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="instagram">
+                <h2 class="side-bar__title">Instagram</h2>
+                <div class="instagram__posts">
+                  <img
+                    src="./images/inst1.png"
+                    alt="car"
+                    class="instagram__img"
+                  />
+                  <img
+                    src="./images/inst2.png"
+                    alt="car"
+                    class="instagram__img"
+                  />
+                  <img
+                    src="./images/inst3.png"
+                    alt="car"
+                    class="instagram__img"
+                  />
+                  <img
+                    src="./images/inst4.png"
+                    alt="car"
+                    class="instagram__img"
+                  />
+                  <img
+                    src="./images/inst5.png"
+                    alt="car"
+                    class="instagram__img"
+                  />
+                  <img
+                    src="./images/inst6.png"
+                    alt="car"
+                    class="instagram__img"
+                  />
+                </div>
+
+                <button class="side-bar__button" type="button">
+                  <img
+                    src="./images/inst logo.png"
+                    alt="instagram"
+                    class="instagram__logo"
+                  />
+                  View instagram
+                </button>
+              </li>
+
+              <li class="tags">
+                <h2 class="side-bar__title">Tag</h2>
+                <div class="tags_list">
+                  <a href="#" class="span-title span-title_tag">Business</a>
+                  <a href="#" class="span-title span-title_tag">Freelance</a>
+                  <a href="#" class="span-title span-title_tag">Money</a>
+                  <a href="#" class="span-title span-title_tag">Experience</a>
+                  <a href="#" class="span-title span-title_tag">Lifestyle</a>
+                  <a href="#" class="span-title span-title_tag">SEO</a>
+                  <a href="#" class="span-title span-title_tag">Wordpress</a>
+                  <a href="#" class="span-title span-title_tag">Marketing</a>
+                  <a href="#" class="span-title span-title_tag">UX</a>
+                  <a href="#" class="span-title span-title_tag">Modern</a>
+                  <a href="#" class="span-title span-title_tag">Success</a>
+                  <a href="#" class="span-title span-title_tag">Nature</a>
+                  <a href="#" class="span-title span-title_tag">Productivity</a>
+                  <a href="#" class="span-title span-title_tag">Sales page</a>
+                  <a href="#" class="span-title span-title_tag">Sell</a>
+                  <a href="#" class="span-title span-title_tag">Teamwork</a>
+                  <a href="#" class="span-title span-title_tag">Monetize</a>
+                </div>
+              </li>
+
+              <li class="newsletter">
+                <h2 class="side-bar__title side-bar__title_newsletter">
+                  Email newsletter
+                </h2>
+                <p class="newsletter__subtitle">
+                  Sign up to receive email updates and to hear what's going on.
+                </p>
+                <form>
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    class="data__input"
+                  />
+                  <input
+                    type="email"
+                    placeholder="Your email adress"
+                    class="data__input"
+                  />
+                  <button class="side-bar__button">
+                    Subscribe to newsletter
+                  </button>
+                </form>
+              </li>
+            </ul>
+          </section>
+          <section></section>
         </section>
-      </section>
-    </main>
-    <footer class="footer"></footer>
-  </div>
-</body>
-
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>
