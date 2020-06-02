@@ -1,0 +1,10 @@
+@import url(./__subtitle/newsletter__subtitle.css);
+@import url(./__title/newsletter__title.css);
+
+@import url(./__title/_theme/newsletter__title_theme_dark.css);
+@import url(./__title/_theme/newsletter__title_theme_light.css);
+
+.newsletter {
+  width: 270px;
+  /* border: 1px solid red; */
+}

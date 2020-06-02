@@ -1,0 +1,15 @@
+@import url(./__car/article__car.css);
+@import url(./__block/article__block.css);
+@import url(./__title/article__title.css);
+@import url(./__text/article__text.css);
+
+.article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 560px;
+    width: 770px;
+    margin: 0 0 60px;
+    /* border: 1px solid red; */
+}

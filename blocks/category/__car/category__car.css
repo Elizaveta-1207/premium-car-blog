@@ -1,0 +1,21 @@
+.category__car {
+    display: block;
+    height: 265px;
+    width: 370px;
+    border-radius: 3px;
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+    /* margin-right: 30px; */
+    transition: filter 0.5s linear;
+}
+
+/* .category__car:hover {
+    filter: brightness(25%);
+  } */
+
+/*при наведении на картинку изменяем фон*/
+/*Пока непонятно в какую папку выносить ткого виде селекторы!?*/
+/* .category__list:hover .category__car {
+    filter: brightness(25%);
+} */

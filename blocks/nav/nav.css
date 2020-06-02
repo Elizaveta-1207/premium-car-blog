@@ -1,0 +1,12 @@
+@import url(./__links/nav__links.css);
+@import url(./__link/nav__link.css);
+
+/* .nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 368px;
+  /*justify-content: space-between;*
+border: 1px solid red;
+}*/

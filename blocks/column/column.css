@@ -1,0 +1,9 @@
+@import url(./__title/colunm__title.css);
+@import url(./__subtitle/column__subtitle.css);
+
+.column {
+    width: 270px;
+    /* border: 1px solid red; */
+    margin: 0;
+    /* margin-right: 129px; */
+}

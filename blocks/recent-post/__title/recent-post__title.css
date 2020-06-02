@@ -1,0 +1,10 @@
+.recent-post__title {
+    width: 178px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 26px;
+    margin: 4px 0 13px;
+    padding: 0;
+    /* border: 1px solid red; */
+}

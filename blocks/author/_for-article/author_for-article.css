@@ -1,0 +1,9 @@
+.author_for-article {
+    position: absolute;
+    top: 115px;
+    left: 30px;
+    font-style: italic;
+    color: #666666;
+
+    /*border: 1px solid red;*/
+}

@@ -1,0 +1,18 @@
+.instagram__img {
+    margin-bottom: 10px;
+    display: block;
+    width: 130px;
+    height: 130px;
+    border-radius: 3px;
+    transition: transform 0.5s linear;
+    /*border: 1px solid red;*/
+}
+
+.instagram__img:hover {
+    /*-webkit-transform: scale(1.1);*/
+    transform: scale(1.1);
+}
+
+/* .instagram__img:not(:hover) {
+    transition: 0.5s;
+} */

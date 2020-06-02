@@ -1,0 +1,9 @@
+@import url(./__photo/about-us__photo.css);
+@import url(./__name/about-us__name.css);
+@import url(./__profession/about-us__profession.css);
+@import url(./__text/about-us__text.css);
+
+.about-us {
+    max-width: 270px;
+    /* border: 1px solid red; */
+}

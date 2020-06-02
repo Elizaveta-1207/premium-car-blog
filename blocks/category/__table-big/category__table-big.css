@@ -1,0 +1,25 @@
+.category__table-big {
+    position: relative;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    /*height: 560px;*/
+
+    /*добавили фон для появления при наведении*/
+    border-radius: 3px;
+    /* background: black; */
+    opacity: 1;
+}
+
+/*при наведении на картинку изменяем фон*/
+.category__table-big:hover .category__car {
+    /* opacity: 0.3; */
+    filter: brightness(25%);
+    /* transition: 0.5s; */
+}
+
+/*.category__table-big:not(:hover) .category__car {
+    transition: 0.7s;
+  } */

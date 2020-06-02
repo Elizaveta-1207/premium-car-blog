@@ -1,0 +1,13 @@
+@import url(./__list/pages-nav__list.css);
+@import url(./__number/pages-nav__number.css);
+@import url(./__link/pages-nav__link.css);
+
+@import url(./__link/_nonactive/pages-nav__link_nonactive.css);
+
+
+.pages-nav {
+    margin: 0;
+    margin-top: 7px;
+    padding: 0;
+    /* border: 1px solid red; */
+}

@@ -1,0 +1,16 @@
+@import url(./__container/header__container.css);
+@import url(./__search/header__search.css);
+
+.header {
+    height: 90px;
+    background-color: #000;
+    padding-top: 0.5px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #fff;
+}

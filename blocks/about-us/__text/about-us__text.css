@@ -1,0 +1,12 @@
+.about-us__text {
+    /*width: 270px;*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #666666;
+    margin: 14px 0 21px;
+    padding: 0;
+
+    /*border: 1px solid red;*/
+}

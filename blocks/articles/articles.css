@@ -1,0 +1,14 @@
+@import url(./__table/articles__table.css);
+
+.articles {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    /*align-items: center;*/
+
+    /* border: 1px solid red; */
+
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding: 0;
+}

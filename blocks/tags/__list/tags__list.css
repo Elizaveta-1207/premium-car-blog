@@ -1,0 +1,13 @@
+.tags__list {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    justify-content: flex-start;
+    /*margin: 0;
+    padding: 0;*/
+    /*добавила к общей ширине side-bar 270px ещё 10px,
+    чтобы скомпенсировать margin вправо*/
+    width: 280px;
+    align-items: flex-start;
+    /*border: 1px solid red;*/
+}

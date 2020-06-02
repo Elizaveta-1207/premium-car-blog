@@ -1,0 +1,17 @@
+@import url(./_for-category/author_for-category.css);
+@import url(./_for-post/author_for-post.css);
+@import url(./_for-article/author_for-article.css);
+@import url(./_for-recent-post/author_for-recent-post.css);
+
+.author {
+    /* position: absolute;
+    bottom: 89px;
+    left: 20px; */
+    font-size: 14px;
+    line-height: 18px;
+    /* color: #fff; */
+    margin: 0;
+    padding: 0;
+
+    /* border: 1px solid red; */
+}

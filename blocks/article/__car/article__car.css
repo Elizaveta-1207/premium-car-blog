@@ -1,0 +1,6 @@
+.article__car {
+    display: flex;
+    height: 440px;
+    width: 770px;
+    border-radius: 3px;
+}

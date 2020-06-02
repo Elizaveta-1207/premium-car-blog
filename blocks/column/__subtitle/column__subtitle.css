@@ -1,0 +1,9 @@
+.column__subtitle {
+    margin: 25px 0 64px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #cecece;
+    /* border: 1px solid red; */
+}

@@ -1,0 +1,17 @@
+.article__text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+
+    width: 614px;
+    height: 72px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid red;*/
+}

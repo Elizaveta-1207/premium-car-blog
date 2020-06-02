@@ -1,0 +1,19 @@
+.pages-nav__number {
+    background-color: transparent;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    margin: 0;
+    margin-right: 10px;
+    /* border: 1px solid red; */
+    transition: background-color 0.4s linear;
+}
+
+.pages-nav__number:hover {
+    background-color: #171717;
+
+    /* transition: 0.4s; */
+}
+
+/* .pages-nav__number :not(:hover) {
+    transition: 0.4s;
+  } */

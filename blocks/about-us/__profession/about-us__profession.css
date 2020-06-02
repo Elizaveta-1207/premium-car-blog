@@ -1,0 +1,11 @@
+.about-us__profession {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #999999;
+    margin: 8px 0 0;
+    padding: 0;
+
+    /*border: 1px solid red;*/
+}

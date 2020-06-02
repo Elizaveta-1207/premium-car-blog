@@ -1,0 +1,11 @@
+.side-bar__title {
+    /*padding: 0;*/
+    margin: 60px 0 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #171717;
+
+    /*border: 1px solid red;*/
+}

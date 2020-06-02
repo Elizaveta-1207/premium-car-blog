@@ -1,0 +1,12 @@
+.category__table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    /* box-sizing: border-box; */
+    /* padding: 0; */
+    /* margin: 0; */
+    height: 560px;
+    width: 100%;
+
+}

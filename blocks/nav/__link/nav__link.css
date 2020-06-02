@@ -1,0 +1,12 @@
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    transition: opacity 0.5s linear;
+}
+
+.nav__link:hover {
+    /*прозрачность*/
+    opacity: 0.4;
+}

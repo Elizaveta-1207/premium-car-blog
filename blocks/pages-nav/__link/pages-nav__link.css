@@ -1,0 +1,20 @@
+.pages-nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: #171717;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 3px;
+    transition: color 0.4s linear;
+    /* border: 1px solid red; */
+}
+
+.pages-nav__link:hover {
+    color: #fff;
+}

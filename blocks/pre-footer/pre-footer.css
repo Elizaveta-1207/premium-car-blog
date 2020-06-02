@@ -1,0 +1,12 @@
+.pre-footer {
+    background: #171717;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #fff;
+    padding: 0;
+    padding-bottom: 49px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}

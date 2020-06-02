@@ -1,0 +1,8 @@
+.posts_most-pop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 79px;
+    /* border: 1px solid red; */
+}

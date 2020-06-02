@@ -1,0 +1,10 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    max-width: 1170px;
+    margin: auto;
+    padding: 0;
+    /*width: 1170px; */
+    /* border: 1px solid red; */
+}

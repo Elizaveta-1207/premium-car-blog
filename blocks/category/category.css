@@ -1,0 +1,18 @@
+@import url(./__table/category__table.css);
+@import url(./__table-big/category__table-big.css);
+@import url(./__table-small/category__table-small.css);
+@import url(./__car/category__car.css);
+@import url(./__list/category__list.css);
+@import url(./__title/category__title.css);
+
+@import url(./__car/_big/category__car_big.css);
+
+
+.category {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 76px;
+    padding: 0;
+    /* border: 1px solid red; */
+}

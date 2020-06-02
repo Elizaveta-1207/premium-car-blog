@@ -1,0 +1,36 @@
+.header__search {
+    display: flex;
+    align-items: center;
+    /*border: 1px solid red;*/
+    /*border: none;*/
+}
+
+.header__search input {
+    border: 2px solid transparent;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.header__search input:focus {
+    border: 2px solid rgb(255, 255, 255, 0.3);
+    background-color: rgb(255, 255, 255, 0.3);
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.header__search button {
+    background-image: url("../../../images/Shape.png");
+    /*background: transparent;*/
+    background-color: transparent;
+    width: 16px;
+    height: 17px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+/*.header__search-icon {
+    /*border: 1px solid red;*
+  }*/

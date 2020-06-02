@@ -1,0 +1,23 @@
+.article__block {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    /*position: relative;*/
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    background-color: #fff;
+    width: 730px;
+    height: 249px;
+    border-radius: 3px;
+    /*border: 1px solid red;*/
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s linear;
+}
+
+.article__block:hover {
+    /*-webkit-transform: scale(1.1);*/
+    transform: scale(1.1);
+}
