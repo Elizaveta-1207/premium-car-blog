@@ -1,17 +1,23 @@
-@import url(./_pop/post_pop.css);
-@import url(./_most-pop/post_most-pop.css);
-
 @import url(./__img/post__img.css);
 @import url(./__title/post__title.css);
+@import url(./__img-block/post__img-block.css);
+
+@import url(./_pop/post_pop.css);
+@import url(./_most-pop/post_most-pop.css);
 
 .post {
     position: relative;
     padding: 0;
 
+    /* overflow: hidden; */
     cursor: pointer;
-    /*border: 1px solid red;*/
+    /* border: 1px solid red; */
 }
 
 .post:hover .post__title {
     text-decoration: underline;
+}
+
+.post:hover .post__img {
+    transform: scale(1.05);
 }

@@ -15,3 +15,7 @@
 .recent-post:hover .recent-post__title {
     text-decoration: underline;
 }
+
+.recent-post:hover .recent-post__img {
+    box-shadow: 0 0 10px #cecece;
+}
