@@ -9,7 +9,7 @@
 
     /*добавили фон для появления при наведении*/
     border-radius: 3px;
-    /* background: black; */
+    /* background-image: linear-gradient(to bottom, transparent, #000); */
     opacity: 1;
 }
 
@@ -20,6 +20,40 @@
     /* transition: 0.5s; */
 }
 
-/*.category__table-big:not(:hover) .category__car {
+/* .category__table-big:hover .category__car-block:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    background: transparent;
+    background-image: linear-gradient(to bottom, transparent, #000 70%);
+    opacity: 0.8;
+    transition: 0.5s;
+} */
+
+/* .category__table-big:hover .category__car-block::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    background: transparent;
+    background-image: linear-gradient(to bottom, transparent, #000 70%);
+    opacity: 0.8;
+    /* transition: 0.5s; *
+} */
+
+/* .category__table-big:not(:hover) .category__car-block:after {
+    transition: 0.5s;
+} */
+
+/* .category__table-big:not(:hover) .category__car {
     transition: 0.7s;
   } */

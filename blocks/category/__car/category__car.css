@@ -8,7 +8,14 @@
     margin: 0;
     /* margin-right: 30px; */
     transition: filter 0.5s linear;
+    /* transition: opacity 0.5s linear; */
+    /* background-image: linear-gradient(to bottom, transparent, #000);*/
 }
+
+/* .category__car-block {
+    /* background-image: linear-gradient(to bottom, transparent, #000); *
+    /* border: 1px solid red; *
+} */
 
 /* .category__car:hover {
     filter: brightness(25%);
