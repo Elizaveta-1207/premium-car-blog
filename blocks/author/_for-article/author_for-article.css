@@ -1,9 +1,11 @@
 .author_for-article {
-    position: absolute;
+    /* position: absolute;
     top: 115px;
-    left: 30px;
+    left: 30px; */
     font-style: italic;
     color: #666666;
+    padding-top: 15px;
+    padding-left: 30px;
 
     /*border: 1px solid red;*/
 }

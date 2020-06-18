@@ -1,7 +1,7 @@
 .article__title {
-    position: absolute;
+    /* position: absolute;
     top: 72px;
-    left: 30px;
+    left: 30px; */
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
@@ -9,6 +9,8 @@
     color: #171717;
     padding: 0;
     margin: 0;
+    padding-top: 72px;
+    padding-left: 30px;
 
     /*border: 1px solid red;*/
 }

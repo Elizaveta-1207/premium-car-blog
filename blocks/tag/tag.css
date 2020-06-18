@@ -23,7 +23,7 @@
     line-height: 16px;
     color: #fff;
     margin: 0;*/
-    transition: color 0.3s linear, background-color 0.4s linear;
+    transition: color 0.2s linear, background-color 0.2s linear;
 }
 
 .tag:hover {
