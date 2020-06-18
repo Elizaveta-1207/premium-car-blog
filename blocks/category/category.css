@@ -1,4 +1,9 @@
+@import url(./cell/category__cell.css);
+
+@import url(./cell/_big/category__cell_big.css);
+
 @import url(./__table/category__table.css);
+
 @import url(./__table-big/category__table-big.css);
 @import url(./__table-small/category__table-small.css);
 @import url(./__car/category__car.css);
@@ -9,8 +14,20 @@
 @import url(./__car/_big/category__car_big.css);
 
 
-.category {
+/* .category {
     display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 76px;
+    padding: 0;
+    /* border: 1px solid red; 
+}*/
+
+.category {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    grid-template-rows: repeat(2, 265px);
+    grid-gap: 30px;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 76px;
