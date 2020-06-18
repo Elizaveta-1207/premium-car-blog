@@ -21,7 +21,7 @@
 }
 
 .header__search button {
-    background-image: url("../../../images/Shape.png");
+    background-image: url("../../../images/header-seach.png");
     /*background: transparent;*/
     background-color: transparent;
     width: 16px;
